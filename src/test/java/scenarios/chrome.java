@@ -27,6 +27,7 @@ public class chrome
 		String name = "Chrome";
 		String cpu = driver.findElement(By.xpath("//table[@id='taskTable']/tbody/tr/td[.='"+name+"']/following-sibling::td[contains(.,'%')]")).getText();
 		System.out.println(cpu);
+		System.out.println("created");
 		driver.quit();
 		
 		

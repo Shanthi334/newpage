@@ -40,6 +40,7 @@ public class TestAutomationPracticeBlogspot
 			catch(Exception e)
 			{
 				driver.findElement(By.xpath("//ul[@id='pagination']/li/a[text()='"+j+"']")).click();
+				System.out.println("created1");
 			
 			}
 		}
